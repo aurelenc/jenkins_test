@@ -13,3 +13,8 @@ clean:
 fclean: clean
 	rm -f $(NAME)
 
+tests_run:
+	make fclean
+	make
+
+all: $(NAME)
