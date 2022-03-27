@@ -18,4 +18,3 @@ tests_run:
 	make
 
 all: $(NAME)
-
